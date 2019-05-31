@@ -19,29 +19,29 @@
 # Put a comment noting which class is the base class
 
 
-class Vehicle:
+class Vehicle:  # base class
     pass
 
 
-class FlightVehicle(Vehicle):
+class FlightVehicle(Vehicle):  # vehicle is a base class, flight vehicle derives from it
     pass
 
 
-class Starship(FlightVehicle):
+class Starship(FlightVehicle):  # flight vehicle is a base class and starship derives from it
     pass
 
 
-class Airplane(FlightVehicle):
+class Airplane(FlightVehicle):  # flight vehicle is a base class and airplane derives from it
     pass
 
 
-class GroundVehicle(Vehicle):
+class GroundVehicle(Vehicle):  # vehicle is a base class, ground vehicle derives from it
     pass
 
 
-class Car(GroundVehicle):
+class Car(GroundVehicle):  # ground vehicle is a base class, car derives from it
     pass
 
 
-class Motorcycle(GroundVehicle):
+class Motorcycle(GroundVehicle):  # ground vehicle is a base class, motorcycle derives from it
     pass
